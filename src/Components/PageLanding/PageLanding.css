@@ -1,0 +1,97 @@
+.page-containter{
+    width: 100%;
+    height: 55vh;
+}
+
+.page-frame{
+    width: 100%;
+    height: 100%;
+    display: flex; align-items: end; justify-content: center;
+}
+
+.pageTittle-containter{
+    width: 50rem; min-height: 15rem;
+    height: 20rem;
+    display: flex; flex-direction: column; align-items: center; justify-content: end; text-align: center; gap: 1.5rem;
+    font-family: "Inter", sans-serif;
+
+}
+
+.pageTittle-box{
+    border: 1px solid rgb(48, 48, 48);
+    width: 12%;
+    height: 10%;
+    border-radius: 5px;
+    color: white;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.8rem;
+}
+
+.pageTittle-containter h2{
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    line-height: 1.2;
+}
+
+.pageTittle-containter p{
+    opacity: 0.8;
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    width: 70%;
+}
+
+.pl-span {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.plp-span {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+
+@media (max-width: 768px) {
+
+.page-containter{
+
+    height: 48vh;
+}
+
+.pageTittle-containter{
+    gap: 1rem;
+
+
+}
+
+.pageTittle-box{
+    width: 27%;
+}
+
+.pageTittle-containter h2{
+    font-size: 2.2rem;
+    width: 90%;
+}
+
+.pageTittle-containter p{
+    width: 90%;
+    font-size: 1rem;
+}
+
+.pl-span {
+  margin-right: 0.5rem;
+}
+
+.plp-span {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+
+
+}

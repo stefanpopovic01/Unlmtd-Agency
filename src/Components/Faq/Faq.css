@@ -1,0 +1,177 @@
+.faq-container{
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+}
+
+.faq-frame{
+  width: 80%;
+  flex-grow: 1;
+  margin: 0 auto;
+  display: flex; flex-direction: column; align-items: center; gap: 5rem;
+}
+
+.faq-content{
+  width: 100%;
+  height: 100%;
+  display: flex; flex-direction: column; align-items: center; gap: 5rem;
+}
+
+.faq-questions{
+  width: 70%;
+  height: fit-content;
+  display: flex; flex-direction: column; gap: 0.8rem; align-items: center;
+  filter: blur(40px);
+  opacity: 0.5;
+}
+
+.faq-question1{
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid rgb(48, 48, 48); 
+  background: linear-gradient(225deg, rgba(129, 74, 200, 0.114) 0%, transparent 70%);
+  cursor: pointer;
+  padding-left: 1rem; padding-right: 1rem;
+ 
+}
+
+.faq-question1-tittle{
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+  height: 3.5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.faq-question1-answer{
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 0.9rem;   
+  opacity: 0.8;
+  height: 3.5rem;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+
+.faq-getintouch{
+  width: 70%;
+  height: 25rem;
+  background: linear-gradient(149deg, rgba(129, 74, 200, 0.4) 0%, rgba(13, 13, 13, 0.8) 29%, rgba(13, 13, 13, 0.8) 74%, rgba(129, 74, 200, 0.4) 100%);
+  border-radius: 10px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem;
+}
+
+.faq-getintouch h5{
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0px 0px 0px 0px;
+  color: white;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.faq-getintouch h6{
+  opacity: 0.8;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+  margin: 0px 0px 0px 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.faq-getintouch button{
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(129, 74, 200);
+  height: 10%;
+  width: 17%;
+  border: none;
+}
+
+.faq-getintouch button i{
+  padding-left: 0.4rem;
+}
+
+.faq-getintouch button:hover{
+  background-color: rgb(142, 99, 198);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+
+  .faq-frame{
+    width: 90%;
+    flex-grow: 1;
+    justify-content: start; gap: 1.5rem;
+  }
+
+  .faq-content{
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .faq-questions{
+    width: 100%;
+  }
+
+  .faq-question1-answer{
+    font-size: 0.8rem;
+    width: 100%;
+    height: 5.5rem;
+  }
+
+  .faq-question1-tittle{
+    height: 4rem;
+    width: 100%;
+  }
+
+  .faq-getintouch{
+    width: 100%;
+    height: 20rem;
+  }
+
+  .faq-getintouch h5{
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  .faq-getintouch h6{
+    opacity: 0.8;
+    font-size: 1rem;
+  }
+
+  .faq-getintouch button{
+    font-weight: 400;
+    font-size: 0.8rem;
+    width: 40%;
+  }
+}
+
+
+

@@ -1,0 +1,10 @@
+.contact-containter{
+    display: flex; flex-direction: column; gap: 8rem;
+    background-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+    .contact-containter{
+        gap: 4rem;
+    }
+}

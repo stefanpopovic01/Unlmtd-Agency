@@ -1,0 +1,85 @@
+.wwa-containter{
+    width: 100%;
+    height: 65vh;
+}
+
+.wwa-frame{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex; flex-direction: column; align-items: center; gap: 5rem;
+}
+
+.wwa-content{
+    width: 80%;
+    height: 100%;
+    display: flex; justify-content: space-between;
+}
+
+.wwa-box{
+    width: 32%;
+    height: 100%;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 10px;
+    background: radial-gradient(50% 75% at 98.9% 100%, rgba(129, 74, 200, 0.3) 0%, rgba(13, 13, 13, 0.8) 100%);
+    padding: 1.5rem 1.7rem;
+}
+
+.wwa-tittle{
+    width: 100%;
+    height: 40%;
+    display: flex; align-items: start; gap: 0.5rem;
+}
+
+.wwa-tittle svg{
+    width: 12%;
+    user-select: none;
+    display: inline-block;
+    fill: white;
+    flex-shrink: 0;
+}
+
+.wwa-tittle p{
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    height: 55%;
+}
+
+.wwa-desc{
+    width: 100%;
+    height: 60%;
+    color: rgba(255, 255, 255, 0.75);
+    margin: 0px 0px 0px 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+
+    .wwa-containter{
+        height: 100vh; 
+    }
+
+    .wwa-frame{
+        width: 90%;
+        height: 100%;
+        justify-content: start; 
+        gap: 1.5rem;
+    }
+
+    .wwa-content{
+        width: 100%;
+        height: 100%;
+        flex-direction: column; 
+    }
+
+    .wwa-box{
+        width: 100%;
+        height: 30%;
+    }
+    
+}
