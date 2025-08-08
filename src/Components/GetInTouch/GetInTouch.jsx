@@ -5,8 +5,8 @@ import StartNowForm from './StartNowForm/StartNowForm';
 function GetInTouch() {
 
   const boxWords = "Start Now"
-  const titleWords = ["Let’s", "Get", "Started"];
-  const subtitleWords = ["Fill", "in", "your", "details", "to", "book", "your", "feature", "and", "we’ll", "reach", "out", "for", "the", "final", "setup", "steps."];
+  const titleWords = ["Let’s", "Get", "Started", "Today"];
+  const subtitleWords = ["Fill", "in", "your", "details", "to", "book", "your", "feature", "and", "we’ll", "reach", "out", "to", "guide", "you", "through", "the", "final", "easy", "setup", "steps."];
 
            
   return (

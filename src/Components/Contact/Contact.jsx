@@ -5,7 +5,7 @@ import Form from './Form/Form';
 function Contact() {
 
   const boxWords = "Contact"
-  const titleWords = ["Get", "in", "Touch", "with", "Us"];
+  const titleWords = ["Connect", "With", "Our", "Team"];
   const subtitleWords = ["Have", "questions", "or", "need", "our", "solutions?", "Let", "us", "know", "by", "filling", "out", "the", "form,", "and", "we’ll", "be", "in", "touch!"];
            
   return (
